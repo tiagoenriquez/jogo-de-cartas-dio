@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpô</title>
+</head>
+<body>
+    <div class="menu">
+        <div id="historico" class="informacoes">
+            <h2>Histórico</h2>
+            <p id="vitorias"></p>
+            <p id="derrotas"></p>
+        </div>
+    </div>
+    <main>
+        <div id="mesa-do-oponente" class="mesa">
+            <div id="lugar-da-carta-do-oponente-1" class="lugar-de-carta-de-oponente lugar-de-carta"></div>
+            <div id="lugar-da-carta-do-oponente-2" class="lugar-de-carta-de-oponente lugar-de-carta"></div>
+            <div id="lugar-da-carta-do-oponente-3" class="lugar-de-carta-de-oponente lugar-de-carta"></div>
+            <div id="lugar-da-carta-do-oponente-4" class="lugar-de-carta-de-oponente lugar-de-carta"></div>
+            <div id="lugar-da-carta-do-oponente-5" class="lugar-de-carta-de-oponente lugar-de-carta"></div>
+        </div>
+        <div class="cartas-lancadas">
+            <div id="carta-lancada-pelo-jogador" class="lugar-de-carta"></div>
+            <span id="versus">X</span>
+            <div id="carta-lancada-pelo-oponente" class="lugar-de-carta"></div>
+        </div>
+        <div id="mesa-do-jogador" class="mesa">
+            <div id="lugar-da-carta-do-jogador-1" class="lugar-de-carta-de-jogador lugar-de-carta"></div>
+            <div id="lugar-da-carta-do-jogador-2" class="lugar-de-carta-de-jogador lugar-de-carta"></div>
+            <div id="lugar-da-carta-do-jogador-3" class="lugar-de-carta-de-jogador lugar-de-carta"></div>
+            <div id="lugar-da-carta-do-jogador-4" class="lugar-de-carta-de-jogador lugar-de-carta"></div>
+            <div id="lugar-da-carta-do-jogador-5" class="lugar-de-carta-de-jogador lugar-de-carta"></div>
+        </div>
+        <button></button>
+    </main>
+    <script src="src/models/Carta.js"></script>
+    <script src="src/models/Jogador.js"></script>
+    <script src="src/models/Jogo.js"></script>
+    <script src="src/presenters/TelaPresenter.js"></script>
+    <script src="src/datas/cartas.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
