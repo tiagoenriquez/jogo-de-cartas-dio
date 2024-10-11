@@ -12,7 +12,6 @@ class Jogador {
         this.nome = nome;
         this.vitorias = 0;
         this.derrotas = 0;
-        this.cartas = [];
     }
 
     /**
@@ -37,5 +36,9 @@ class Jogador {
 
     perder = () => {
         this.derrotas++;
+    }
+
+    removerCartas = () => {
+        this.cartas = [];
     }
 }
